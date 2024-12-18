@@ -22,6 +22,8 @@
 - Escolha o ataque, no nosso caso é a opção 2: ``` Site Cloner ```
 - Agora vai pedir qual o IP da máquina (para subir o servidor do ataque). Geralmente ele já te mostrará o seu IP e só precisará apertar enter, caso não mostre, verifique o ip com o comando: ``` ifconfig ```
 - Insira a URL do site que deseja clonar. No meu caso, optei pelo Instagram por sua atual popularidade: ``` http://instagram.com ```
+- Quando receber alguma credencial, verá no terminal o seguinte:
+![Alt text](./printTerminal.png "Print do terminal com a senha e o usuário coletados.")
 - Após receber a senha que deseja, pode sair do setoolkit, apertando control+C até que o programa feche.
 
 ## Separando as credenciais coletadas
@@ -34,6 +36,4 @@
 
 ## Resutado
 
-![Alt text](./passwd.png "Print do txt com a senha e o usuário coletados")
-
-### Notas
+![Alt text](./printTxt.png "Print do txt com a senha e o usuário coletados.")
